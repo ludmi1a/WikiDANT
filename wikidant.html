@@ -8,9 +8,16 @@
         #droite {
             float:right;
         }
-        .block {
+        #menu .block {
             display:inline-block;
             color:blue;
+        }
+        #entete .block {
+            float: left;
+            display:inline-block;
+        }
+        #entete .block2 {
+            float: right;
         }
     </style>
 </head>
@@ -18,31 +25,56 @@
 <body>
 
 <div id="menu">
-    <div class="block" id="change">
+    <div class="block">
         Article
     </div>
-    <div class="block" id="change">
+    <div class="block">
         Discussion
     </div>
 
     <div id="droite">
-        <div class="block" id="change">
+        <div class="block">
             Lire
         </div>
-        <div class="block" id="change">
+        <div class="block">
             Modifier
         </div>
-        <div class="block" id="change">
+        <div class="block">
             Modifier le code
         </div>
-        <div class="block" id="change">
+        <div class="block">
             Voir l'historique
         </div>
 
     </div>
+</div>
 
+<div id="entete">
+    <div class="block">
+        <h1><em>Dante aux enferts</em></h1>
+        <p></p><em><b>Le Dante aux enfers</b> ou <b>Le Dante, conduit par Virgile, offre des consolations aux âmes des envieux</b></em> est un tableau d'Hippolyte Flandrin réalisé en 1835, une peinture à l'huile conservée au musée des Beaux-Arts de Lyon.</p>
+    </div>
+    <div class="block2">
+        <h3><em>Dante aux Enferts</em></h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Hippolyte_Flandrin_-_Le_Dante%2C_conduit_par_Virgile%2C_offre_des_consolations_aux_%C3%A2mes_des_Envieux.jpg" width="200px" height="300px">
+    </div>
+   
 
 </div>
 
+<div id="sommaire">
+    <div class="blocksommaire">
+        <h4>Sommaire</h4>
+    </div>
+    <ol>
+        <li>Histoire</li>
+            <ol start="1.1">
+                <li>Contexte de réalisation</li>
+                <li>Dante et Virgile</li>
+            </ol>
+        <li>Description</li>
+        <li>Références</li>
+    </ol>
+</div>
     
 </body>
